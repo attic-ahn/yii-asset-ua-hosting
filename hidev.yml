@@ -1,0 +1,19 @@
+package:
+    type:           yii2-extension
+    name:           yii-asset-ua-hosting
+    title:          'ua-hosting.org asset files: images, configs and more'
+    headline:       ua-hosting.org assets
+    keywords:       ua-hosting, asset, extension, yii
+    description:    |
+        [ua-hosting.org](https://ua-hosting.org) is a domain registrator.
+
+        This package provides assets shareable between different UA-Hosting projects:
+
+        - logos and css bundled with Yii asset bundle
+        - config settings
+        - translations
+
+vendor:
+    name:           ua-hosting
+    title:          UA-Hosting
+    homepage:       https://ua-hosting.org/

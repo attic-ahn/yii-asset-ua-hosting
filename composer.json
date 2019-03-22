@@ -1,0 +1,53 @@
+{
+    "name": "ahnames/yii-asset-ua-hosting",
+    "type": "yii2-extension",
+    "description": "ua-hosting.org asset files: images, configs and more",
+    "keywords": [
+        "ua-hosting",
+        "asset",
+        "extension",
+        "yii"
+    ],
+    "homepage": "https://github.com/ahnames/yii-asset-ua-hosting",
+    "license": "proprietary",
+    "support": {
+        "email": "support@ahnames.com",
+        "source": "https://github.com/ahnames/yii-asset-ua-hosting",
+        "issues": "https://github.com/ahnames/yii-asset-ua-hosting/issues",
+        "wiki": "https://github.com/ahnames/yii-asset-ua-hosting/wiki"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "email": "sol@hiqdev.com",
+            "homepage": "https://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "email": "d.naumenko.a@gmail.com",
+            "homepage": "http://silverfire.me/"
+        }
+    ],
+    "require-dev": {
+        "hiqdev/hidev-php": "dev-master",
+        "hiqdev/hidev-readme": "dev-master",
+        "ahnames/hidev-ahnames": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ahnames\\assets\\uahosting\\": "src"
+        }
+    },
+    "extra": {
+        "config-plugin": {
+            "params": "config/params.php"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
