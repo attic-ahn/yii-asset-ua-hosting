@@ -15,7 +15,7 @@ return [
 
     'organization.name'     => 'UA-Hosting',
     'organization.url'      => 'https://ua-hosting.org/',
-    'organization.termsUrl' => 'https://ua-hosting.org/rules',
+    'organization.termsUrl' => 'https://evo.ua-hosting.org/rules',
 
     'supportEmail'      => $supportEmail,
     'adminEmail'        => 'support@ua-hosting.org',
@@ -23,7 +23,7 @@ return [
     'salesEmail'        => 'misuse@ua-hosting.org',
     'gdprEmail'         => $supportEmail,
 
-    'legals.privacyPolicyUrl' => 'https://ua-hosting.org/rules/privacy',
+    'legals.privacyPolicyUrl' => 'https://evo.ua-hosting.org/rules/privacy',
 
     'copyright.year'    => 2015,
 
