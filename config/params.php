@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2018, AHnames (https://ahnames.com/)
  */
 
-$supportEmail = 'info@ua-hosting.org';
+$supportEmail = 'admin@my.ua-hosting.org';
 
 return [
     'favicon.ico'       => '@ahnames/assets/uahosting/assets/images/favicon.ico',
@@ -18,9 +18,9 @@ return [
     'organization.termsUrl' => 'https://evo.ua-hosting.org/rules',
 
     'supportEmail'      => $supportEmail,
-    'adminEmail'        => 'support@ua-hosting.org',
-    'abuseEmail'        => 'sales@ua-hosting.org',
-    'salesEmail'        => 'misuse@ua-hosting.org',
+    'adminEmail'        => 'admin@my.ua-hosting.org',
+    'abuseEmail'        => 'admin@my.ua-hosting.org',
+    'salesEmail'        => 'admin@my.ua-hosting.org',
     'gdprEmail'         => $supportEmail,
 
     'legals.privacyPolicyUrl' => 'https://evo.ua-hosting.org/rules/privacy',
